@@ -1,0 +1,206 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear:box;
+}
+
+body{
+	font-family: Arial, sans-serif;
+    background: #D8F3FF;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: all.8s ease;
+}
+
+
+a:hover{
+    color: #002A78;
+    text-decoration: none;
+    transition: all.3s ease;
+    border-color:#002A78; 
+    letter-spacing: 2px;
+}
+
+a:active{
+    color: #001130;
+    text-decoration: none;
+    transition: all.3s ease;
+    border-color: #001130; 
+}
+
+header , footer{
+	height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #051937, #002569, #002e9c, #0032cf, #002cff);
+    min-height: 80px;
+}
+
+header{
+    padding: 0px;
+    padding-bottom:0px; 
+    margin: 0;
+}
+
+footer{
+    margin-top: 50px;
+    height: 100%;
+}
+
+#brand{
+	font-size: 40px;
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.brand a:hover{
+    color: #007FE1;
+    letter-spacing: 3px;
+    transition: all.3s ease;
+}
+
+.brand a:active{
+    color: #005394;
+    letter-spacing: 3px;
+    transition: all.3s ease;
+}
+
+
+
+#footer{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.brand{
+	float: left;
+}
+
+.username{
+	font-size: 25px;
+	font-family: 'Arial';
+	padding-top: 25px;
+	padding-right: 40px;
+	float: right;
+}
+
+.exit{
+	padding-right: 20px;
+	padding-top: 15px;
+	float: right;
+	border
+}
+
+
+
+.button{
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	border: 2px solid #fff;
+	width:120px;
+	height:40px;
+	padding-top: 7px;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+}
+
+h6{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.add{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #000051;
+}
+
+.add a{
+    font-size: 150px;
+    color: #137631;
+}
+
+.add i{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.add a:hover{
+    color: #33B55B;
+    transition: all.2s ease; 
+}
+
+input{
+    width: 300px; 
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #000051;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.btn1{
+    background: #01640F;
+    float: left;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.btn2{
+    background: #990000;
+    float: right;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.btn1:hover{
+    letter-spacing: 0;
+    background: #009914;
+    color: #fff;
+}
+
+.btn2:hover{
+    letter-spacing: 0;
+    background: #C20A0A;
+    color: #fff;
+}
